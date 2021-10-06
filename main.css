@@ -1,3 +1,29 @@
 * {
     background-color: mediumseagreen;
 }
+
+.copyright-info {
+    border:1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    font-size:20px;
+}
+
+
+.team {
+    width:33%;
+}
+
+.link {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    width:33%;
+}
+    
+
+
+.symbol {
+    width:33%;  
+}
