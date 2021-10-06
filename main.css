@@ -2,7 +2,7 @@
     background-color: mediumseagreen;
 }
 
-.idk-text {
+.list {
     border: 1px solid black;
     padding: 1em;
     margin: 0.3em;
@@ -10,6 +10,9 @@
 
 .flexin {
     height: 95vh;
+}
+.lists-group {
+    height: 30vh;
     width: 95vw;
     display: flex;
    /* flex-wrap: wrap; */
@@ -71,7 +74,6 @@ img {
   display: flex;
   justify-content: space-between;
   width: 40vw;
->>>>>>> main
 }
 
 .copyright-info {
