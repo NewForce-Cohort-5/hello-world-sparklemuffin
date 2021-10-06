@@ -1,3 +1,10 @@
 * {
     background-color: mediumseagreen;
 }
+
+img {
+    display: flex;
+    height: auto;
+    width: 50%;
+    justify-content: center;
+}
