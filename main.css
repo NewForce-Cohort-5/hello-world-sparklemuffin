@@ -9,14 +9,14 @@
 }
 
 .flexin {
-    border: 1px dashed red;
     height: 95vh;
     width: 95vw;
     display: flex;
    /* flex-wrap: wrap; */
    justify-content: center;
-   align-items: flex-end;
+   align-items: center;
    flex-direction: row;
+   margin:auto;
 
   background-color: mediumseagreen;
 }
@@ -37,16 +37,19 @@ img {
 .country-name {
     border: 1px solid black;
     margin: 1em;
+    text-align: center;
 }
 
 .country-image {
     border: 1px solid black;
-    margin: 1em;
+    margin: auto;
+    text-align: center;
 }
 
 .country-tagline {
     border: 1px solid black;
     margin: 1em;
+    text-align:center;
 }
 
 #logo {
@@ -55,6 +58,8 @@ img {
 }
 
 .navbar {
+  border: 1px solid black;
+  padding: 1em;
   display: flex;
   justify-content: space-between;
   align-items: center;
