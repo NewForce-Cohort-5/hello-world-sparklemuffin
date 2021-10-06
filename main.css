@@ -2,6 +2,26 @@
     background-color: mediumseagreen;
 }
 
+.idk-text {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 0.3em;
+}
+
+.flexin {
+    border: 1px dashed red;
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+   /* flex-wrap: wrap; */
+   justify-content: center;
+   align-items: flex-end;
+   flex-direction: row;
+
+  background-color: mediumseagreen;
+}
+
+
 .symbol {
     width:33%;  
 }
