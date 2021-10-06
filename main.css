@@ -8,9 +8,6 @@
   margin: 0.3em;
 }
 
-.flexin {
-  height: 95vh;
-}
 .lists-group {
   height: 30vh;
   width: 95vw;
@@ -28,14 +25,6 @@
   width: 33%;
 }
 
-/*
-img {
-    display: flex;
-    height: auto;
-    width: 50%;
-    justify-content: center;
-  background-color: mediumseagreen;
-}*/
 
 .country-name {
   border: 1px solid black;
