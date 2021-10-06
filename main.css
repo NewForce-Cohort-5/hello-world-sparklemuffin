@@ -25,13 +25,14 @@
     width:33%;  
 }
 
+/*
 img {
     display: flex;
     height: auto;
     width: 50%;
     justify-content: center;
   background-color: mediumseagreen;
-}
+}*/
 
 .country-name {
     border: 1px solid black;
@@ -39,6 +40,10 @@ img {
 }
 
 .country-image {
+    display: flex;
+    height: auto;
+    width: 50%;
+    justify-content: center;
     border: 1px solid black;
     margin: auto;
 }
