@@ -9,7 +9,7 @@
 }
 
 .flexin {
-    border: 1px dashed yellow;
+    border: 1px dashed red;
     height: 95vh;
     width: 95vw;
     display: flex;
