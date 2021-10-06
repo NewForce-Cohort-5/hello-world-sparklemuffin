@@ -1,32 +1,31 @@
 * {
-    background-color: mediumseagreen;
+  background-color: mediumseagreen;
 }
 
 .list {
-    border: 1px solid black;
-    padding: 1em;
-    margin: 0.3em;
+  border: 1px solid black;
+  padding: 1em;
+  margin: 0.3em;
 }
 
 .flexin {
-    height: 95vh;
+  height: 95vh;
 }
 .lists-group {
-    height: 30vh;
-    width: 95vw;
-    display: flex;
-   /* flex-wrap: wrap; */
-   justify-content: center;
-   align-items: center;
-   flex-direction: row;
-   margin:auto;
+  height: 30vh;
+  width: 95vw;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
 
   background-color: mediumseagreen;
 }
 
-
 .symbol {
-    width:33%;  
+  width: 33%;
 }
 
 /*
@@ -39,25 +38,25 @@ img {
 }*/
 
 .country-name {
-    border: 1px solid black;
-    margin: 1em;
-    text-align: center;
+  border: 1px solid black;
+  margin: 1em;
+  text-align: center;
 }
 
 .country-image {
-    display: flex;
-    height: auto;
-    width: 50%;
-    justify-content: center;
-    border: 1px solid black;
-    margin: auto;
-    text-align: center;
+  display: flex;
+  height: auto;
+  width: 50%;
+  justify-content: center;
+  border: 1px solid black;
+  margin: auto;
+  text-align: center;
 }
 
 .country-tagline {
-    border: 1px solid black;
-    margin: 1em;
-    text-align:center;
+  border: 1px solid black;
+  margin: 1em;
+  text-align: center;
 }
 
 #logo {
@@ -96,20 +95,20 @@ img {
 }
 
 .copyright-info {
-  border:1px solid black;
-  display:flex;
+  border: 1px solid black;
+  display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   text-align: center;
-  font-size:20px;
+  font-size: 20px;
 }
 
 .team {
-  width:33%;
+  width: 33%;
 }
 
 .link {
   border-left: 2px solid black;
   border-right: 2px solid black;
-  width:33%;
+  width: 33%;
 }
