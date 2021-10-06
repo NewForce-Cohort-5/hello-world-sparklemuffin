@@ -1,3 +1,22 @@
 * {
-    background-color: mediumseagreen;
+  background-color: mediumseagreen;
+}
+
+#logo {
+  width: 80px;
+  height: 80px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
 }
