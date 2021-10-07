@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 
 .greenland-background {
 background-image: url('');
   background-color: rgb(31, 41, 36);
 }
+=======
+>>>>>>> main
 
 .list {
   border: 1px solid black;
@@ -13,7 +16,10 @@ background-image: url('');
   border-radius: 100px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 .lists-group {
   height: 30vh;
   width: 95vw;
@@ -21,11 +27,16 @@ background-image: url('');
   justify-content: center;
   align-items: center;
   flex-direction: row;
+<<<<<<< HEAD
   padding: 20px;
   margin: 1em auto;
   background-image: url(gifs/pattern.gif);
   font-family: "Tahoma";
   border-radius: 10px;
+=======
+  margin: auto;
+
+>>>>>>> main
 }
 
 .country-tagline {
@@ -47,8 +58,10 @@ background-image: url('');
   width: 33%;
 }
 
+
 .country-name {
   border: 1px solid black;
+<<<<<<< HEAD
   display: flex;
   text-align: center;
   justify-content: center;
@@ -59,6 +72,9 @@ background-image: url('');
   background-color: rgb(106, 106, 245);
   font-style: oblique;
   font-family: "Tahoma";
+=======
+  margin: 1em;
+>>>>>>> main
 }
 
 .country-image {
