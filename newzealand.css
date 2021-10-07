@@ -1,0 +1,33 @@
+.newzealand-flag {
+  background-image: url(imgs/newzealand-flag.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.list {
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list h2 {
+  color: red;
+}
+
+li {
+  color: white;
+}
+
+.country-name {
+  color: red;
+  border: none;
+  text-align: center;
+}
+
+.country-tagline {
+  color: red;
+  border: none;
+}
