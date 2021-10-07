@@ -1,12 +1,10 @@
+
 .list {
   border: 1px solid black;
   padding: 1em;
   margin: 0.3em;
 }
 
-.flexin {
-  height: 95vh;
-}
 .lists-group {
   height: 30vh;
   width: 95vw;
@@ -15,11 +13,13 @@
   align-items: center;
   flex-direction: row;
   margin: auto;
+
 }
 
 .symbol {
   width: 33%;
 }
+
 
 .country-name {
   border: 1px solid black;
