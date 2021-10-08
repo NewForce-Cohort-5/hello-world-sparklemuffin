@@ -78,3 +78,11 @@ li {
 .link {
   color: #c9072a;
 }
+
+/* Country flag added to cursor style */
+html,
+body {
+  cursor: url("https://downloads.totallyfreecursors.com/cursor_files/newzealand.ani"),
+    url("https://downloads.totallyfreecursors.com/thumbnails/newzealand.gif"),
+    auto;
+}
