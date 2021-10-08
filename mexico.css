@@ -12,6 +12,7 @@
     background-color: black;
     color:white;
     border-radius: 15px 50px 30px;
+    margin-bottom: 10px;
   }
 
   .mexico-tagline {
@@ -166,7 +167,7 @@ a:hover {
 }
 
 
-#mexico-cr {
+.mexico-copyright-info {
     background-color: white;
     opacity: 85%;
 }
