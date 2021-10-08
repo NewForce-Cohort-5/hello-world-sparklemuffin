@@ -6,8 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Greenland</title>
     <link rel="stylesheet" href="greenland.css">
+
+<!-- Photo Library stuff -->
+<style>
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  </style>
+
 </head>
 <body class="greenland-background">
+
+
+
     <nav class="navbar">
       <a href="#">
         <img id="logo" src="imgs/sparklemuffin.webp" alt="Sparklemuffin Spider"
@@ -20,16 +74,120 @@
         <li class="nav-item"><a href="newzealand.html">New Zealand</a></li>
       </ul>
     </nav>
-    <section class="country-intro">
+
+  <!-- Blurred Bg and stuff -->
+  <div class="bg-image"></div>
+
+  <div class="bg-text">
+    <h2></h2>
+    <h1 style="font-size:50px">Greenland</h1>
+    <p>The land of vikings and good beer</p>
+  </div>
+  <!-- END Blurred Bg and stuff -->
+
+   <!-- <section class="country-intro">
         <h1 class="country-name">
             Greenland
-        </h1>
+        </h1> -->
             <img class="country-image" src="imgs/greenland-meme.jpg" alt="greenland-meme"></a>
 
+            
             <h3 class="country-tagline">
-                Greenland: The land of vikings and good beer
+                No, but really Greenland is beautiful - look below
             </h3>
+          
         </section>
+
+        
+  <!-- Photo Library stuff-->
+  <h2></h2>
+  <h4></h4>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="greenland1.jpg">
+        <img src="imgs/greenland1.jpg" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">Photo by Martin Zwick</div>
+    </div>
+  </div>
+  
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="greenland2.jpg">
+        <img src="imgs/greenland2.jpg" alt="Forest" width="600" height="400">
+      </a>
+      <div class="desc">Photo by Ronald Wich</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="greenland3.jpg">
+        <img src="imgs/greenland3.jpg" alt="Northern Lights" width="600" height="400">
+      </a>
+      <div class="desc">Photo by Raymond Cunningham</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="greenland4.jpg">
+        <img src="imgs/greenland4.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">Photo by Eugene Kaspersky</div>
+    </div>
+  </div>
+  
+  <div class="clearfix"></div>
+  
+  <div style="padding:20px;">
+    <p class="country-tagline">Greenland (Greenlandic: Kalaallit Nunaat, pronounced [kalaːɬit nunaːt]; Danish: Grønland, pronounced [ˈkʁɶnˌlænˀ]) is the world's largest island, located between the Arctic and Atlantic oceans, east of the Canadian Arctic Archipelago. 
+      Greenland is an autonomous territory within the Danish Realm. Though physiographically a part of the continent of North America, Greenland has been politically and culturally associated with Europe (specifically Norway and Denmark, the colonial powers) for more than a millennium, beginning in 986.
+      The majority of its residents are Inuit, whose ancestors migrated from Alaska through Northern Canada, gradually settling across the island by the 13th century.</p>
+    <p></p>
+  </div>
+  <!-- END Photo Library stuff-->
+
+<!-- Blurred Bg and stuff -->
+<style>
+  body, html {
+    height: 80%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 40%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 40%;
+    padding: 1px;
+    text-align: center;
+  }
+  </style>
+<!-- END Blurred Bg and stuff -->
+
+
     <section class="lists-group">
       <div class="list">
         <h2>List of Cities</h2>
@@ -110,8 +268,7 @@
   </div>
   <!-- End Ghost -->
 
-  <!-- Photo Library-->
-  
+
 
 </body>
 </html>
