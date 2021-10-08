@@ -2,6 +2,7 @@ body {
   background-image: url(imgs/newzealand-flag.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: 35%;
 }
 
 /* Navbar */
@@ -12,6 +13,12 @@ body {
 
 .nav-item {
   padding: 10px 15px;
+  transition: 0.3s;
+}
+
+.nav-item:hover,
+a:hover {
+  background-color: #c9072a;
 }
 
 .nav-links {
@@ -76,4 +83,13 @@ li {
 
 .link {
   color: #c9072a;
+}
+
+/* Country flag added to cursor style */
+html,
+body,
+.nav-item a {
+  cursor: url("https://downloads.totallyfreecursors.com/cursor_files/newzealand.ani"),
+    url("https://downloads.totallyfreecursors.com/thumbnails/newzealand.gif"),
+    auto;
 }
