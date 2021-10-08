@@ -50,11 +50,11 @@
       opacity: 1;
   }
 
-  .mexico-lists-group {
+  #mexico-lists-group {
       justify-content: space-evenly;
   }
 
-  .mexico-list {
+  #mexico-list {
       background-color: black;
       color:white;
       border-radius: 15px 50px 30px;
@@ -166,7 +166,7 @@ a:hover {
 }
 
 
-.mexico-cr {
+#mexico-cr {
     background-color: white;
     opacity: 85%;
 }
