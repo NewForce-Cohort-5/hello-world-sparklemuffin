@@ -16,9 +16,9 @@
   }
 
   .mexico-tagline {
-    background-color: black;
-    color:white;
+    color:green;
     border-radius: 15px 50px 30px;
+    margin: auto;
   }
 
 
@@ -65,7 +65,10 @@
     background-color: white;
     opacity: 85%;
     max-height: 115px;
+   
 }
+
+
 
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900,400italic,700italic,900italic);
@@ -172,3 +175,43 @@ a:hover {
     opacity: 85%;
 }
 
+
+.mexico-box {
+    font: 1em sans-serif;
+    text-align: center;
+    
+}
+.stage {
+    display: flex;
+    height: 225px;
+    width: 100%;
+    border-bottom: 15px solid black;
+    border-radius: 100px;
+}
+.box {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: #F44336;
+    height: 100px;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 200px;
+    background-image: url(imgs/taco.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.bounce-7 {
+    animation-name: bounce-7;
+    animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+@keyframes bounce-7 {
+    0%   { transform: scale(1,1)      translateY(0); }
+    10%  { transform: scale(1.1,.9)   translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-100px); }
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    57%  { transform: scale(1,1)      translateY(-7px); }
+    64%  { transform: scale(1,1)      translateY(0); }
+    100% { transform: scale(1,1)      translateY(0); }
+}
